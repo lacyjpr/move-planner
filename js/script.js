@@ -13,9 +13,9 @@ function loadData() {
 
     // load streetview
 
-    var streetStr = $('#street').val();
-    var cityStr = $('#city').val();
-    var address = streetStr + ', ' + cityStr;
+    var street = $('#street').val();
+    var city = $('#city').val();
+    var address = street + ', ' + city;
 
     $greeting.text('So, you want to live at ' + address + '?');
 
